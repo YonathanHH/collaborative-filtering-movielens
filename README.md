@@ -2,6 +2,8 @@
 
 Collaborative filtering recommender system built on the [MovieLens 1M](https://grouplens.org/datasets/movielens/1m/) dataset.
 
+[Streamlit Deployable Version](https://collabfilterhary.streamlit.app/)
+
 ## Models
 | Model | Method | Notes |
 |-------|--------|-------|
