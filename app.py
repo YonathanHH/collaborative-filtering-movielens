@@ -35,8 +35,7 @@ movies_df = load_movies()
 # Sidebar
 # ─────────────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Grouplens-logo.png/320px-Grouplens-logo.png",
-             use_container_width=True)
+    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Grouplens-logo.png/320px-Grouplens-logo.png")
     st.markdown("## 🎬 MovieLens Recommender")
     st.markdown("Collaborative filtering on **1 million** ratings from **6,040 users** across **3,900+ movies**.")
     st.divider()
