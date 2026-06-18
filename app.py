@@ -169,9 +169,9 @@ with tab2:
 
     st.divider()
 
-    # Comparison table
+    # Comparison table — darker green highlight for dark mode visibility
     st.dataframe(
-        comparison_df.style.highlight_min(subset=["RMSE","MAE"], color="#d4edda"),
+        comparison_df.style.highlight_min(subset=["RMSE","MAE"], color="#1a5c2e"),
         use_container_width=True
     )
 
